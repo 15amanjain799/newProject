@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="regcode1.jsp" method="post">
+            <center><h1>Customer Registration Form</h1></center>
+            <hr/>
+            Enter Customer Id
+            <input type="text" name="cuid" required/>
+            <br/><br/>
+            Enter Customer Name
+            <input type="text" name="cuname" required/>
+            <br/><br/>
+            Select Gender
+            <input type="radio" name="op" value="Male">Male
+            <input type="radio" name="op" value="Female">Female
+            <br/><br/>
+            Enter Customer Address 
+            <input type="text" name="cuaddress" required/>
+            <br/><br/>
+            Enter Contact Number
+            <input type="number" name="cucon" required/>
+            <br/><br/>
+            Enter Email Id
+            <input type="text" name="cuemail" required/>
+            <br/><br/>
+            Show All Address
+            <input type="submit" value="Register">
+        </form>
+        <a href="showall1.jsp">show All Customer Information</a>
+    </body>
+</html>
